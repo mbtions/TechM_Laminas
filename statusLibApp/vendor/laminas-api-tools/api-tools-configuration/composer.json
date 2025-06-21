@@ -1,0 +1,58 @@
+{
+    "name": "laminas-api-tools/api-tools-configuration",
+    "description": "Laminas Module providing REST resource for manipulating configuration",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "laminas",
+        "api-tools",
+        "module",
+        "rest",
+        "config"
+    ],
+    "homepage": "https://api-tools.getlaminas.org",
+    "support": {
+        "docs": "https://api-tools.getlaminas.org/documentation",
+        "issues": "https://github.com/laminas-api-tools/api-tools-configuration/issues",
+        "source": "https://github.com/laminas-api-tools/api-tools-configuration",
+        "rss": "https://github.com/laminas-api-tools/api-tools-configuration/releases.atom",
+        "chat": "https://laminas.dev/chat",
+        "forum": "https://discourse.laminas.dev"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.1-dev",
+            "dev-develop": "1.2-dev"
+        }
+    },
+    "require": {
+        "php": ">=5.5",
+        "laminas/laminas-config": "~2.3",
+        "laminas/laminas-modulemanager": "~2.3",
+        "laminas/laminas-stdlib": "~2.3",
+        "laminas/laminas-zendframework-bridge": "^1.0"
+    },
+    "require-dev": {
+        "laminas/laminas-loader": "~2.3",
+        "phpunit/phpunit": "~4.7",
+        "squizlabs/php_codesniffer": "^2.3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Laminas\\ApiTools\\Configuration\\": "src/"
+        },
+        "classmap": [
+            "Module.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LaminasTest\\ApiTools\\Configuration\\": "test/"
+        }
+    },
+    "replace": {
+        "zfcampus/zf-configuration": "self.version"
+    }
+}

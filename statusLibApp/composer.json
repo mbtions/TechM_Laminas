@@ -1,0 +1,5 @@
+{
+    "require": {
+        "laminas-api-tools/statuslib-example": "^1.0"
+    }
+}

@@ -1,0 +1,191 @@
+<?php return array(
+    'root' => array(
+        'name' => '__root__',
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'reference' => null,
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'reference' => null,
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'laminas-api-tools/api-tools-configuration' => array(
+            'pretty_version' => '1.1.0',
+            'version' => '1.1.0.0',
+            'reference' => 'c645261aba742e549458d699aaed840b8a5b78d3',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../laminas-api-tools/api-tools-configuration',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'laminas-api-tools/statuslib-example' => array(
+            'pretty_version' => '1.0.0',
+            'version' => '1.0.0.0',
+            'reference' => '80b6e4c5a182abd09170ebbd36f17340f643f27e',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../laminas-api-tools/statuslib-example',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'laminas/laminas-config' => array(
+            'pretty_version' => '2.5.1',
+            'version' => '2.5.1.0',
+            'reference' => '6aa30b69d0e23f82fc70b2f104ea5f264a2124b9',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../laminas/laminas-config',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'laminas/laminas-db' => array(
+            'pretty_version' => '2.6.2',
+            'version' => '2.6.2.0',
+            'reference' => 'ed12acd7ac63d29e2c32433038667595fb321fa1',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../laminas/laminas-db',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'laminas/laminas-eventmanager' => array(
+            'pretty_version' => '2.6.2',
+            'version' => '2.6.2.0',
+            'reference' => 'fb67a2a49da79550b5df2524f8698e175f0f9514',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../laminas/laminas-eventmanager',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'laminas/laminas-hydrator' => array(
+            'pretty_version' => '1.0.0',
+            'version' => '1.0.0.0',
+            'reference' => 'acab29a3327a70be0a653d88906655b15de15517',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../laminas/laminas-hydrator',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'laminas/laminas-modulemanager' => array(
+            'pretty_version' => '2.6.1',
+            'version' => '2.6.1.0',
+            'reference' => '122048a7a52e90af3eef9076f94622467fecd226',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../laminas/laminas-modulemanager',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'laminas/laminas-paginator' => array(
+            'pretty_version' => '2.5.1',
+            'version' => '2.5.1.0',
+            'reference' => '2d8e72ccf7950202c3430b617d00b20592ecf1b0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../laminas/laminas-paginator',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'laminas/laminas-stdlib' => array(
+            'pretty_version' => '2.7.4',
+            'version' => '2.7.4.0',
+            'reference' => 'b69e2741673daabdf720bc76668448ceb1e4c537',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../laminas/laminas-stdlib',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'laminas/laminas-zendframework-bridge' => array(
+            'pretty_version' => '1.8.0',
+            'version' => '1.8.0.0',
+            'reference' => 'eb0d96c708b92177a92bc2239543d3ed523452c6',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../laminas/laminas-zendframework-bridge',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'paragonie/random_compat' => array(
+            'pretty_version' => 'v2.0.21',
+            'version' => '2.0.21.0',
+            'reference' => '96c132c7f2f7bc3230723b66e89f8f150b29d5ae',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../paragonie/random_compat',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'ramsey/uuid' => array(
+            'pretty_version' => '2.9.0',
+            'version' => '2.9.0.0',
+            'reference' => 'b2ef4dd9584268d73f92f752a62bc24cd534dc9a',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../ramsey/uuid',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'rhumsaa/uuid' => array(
+            'dev_requirement' => false,
+            'replaced' => array(
+                0 => '2.9.0',
+            ),
+        ),
+        'zendframework/zend-config' => array(
+            'dev_requirement' => false,
+            'replaced' => array(
+                0 => '2.5.1',
+            ),
+        ),
+        'zendframework/zend-db' => array(
+            'dev_requirement' => false,
+            'replaced' => array(
+                0 => '2.6.2',
+            ),
+        ),
+        'zendframework/zend-eventmanager' => array(
+            'dev_requirement' => false,
+            'replaced' => array(
+                0 => '2.6.2',
+            ),
+        ),
+        'zendframework/zend-hydrator' => array(
+            'dev_requirement' => false,
+            'replaced' => array(
+                0 => '1.0.0',
+            ),
+        ),
+        'zendframework/zend-modulemanager' => array(
+            'dev_requirement' => false,
+            'replaced' => array(
+                0 => '2.6.1',
+            ),
+        ),
+        'zendframework/zend-paginator' => array(
+            'dev_requirement' => false,
+            'replaced' => array(
+                0 => '2.5.1',
+            ),
+        ),
+        'zendframework/zend-stdlib' => array(
+            'dev_requirement' => false,
+            'replaced' => array(
+                0 => '2.7.4',
+            ),
+        ),
+        'zfcampus/statuslib-example' => array(
+            'dev_requirement' => false,
+            'replaced' => array(
+                0 => '1.0.0',
+            ),
+        ),
+        'zfcampus/zf-configuration' => array(
+            'dev_requirement' => false,
+            'replaced' => array(
+                0 => '1.1.0',
+            ),
+        ),
+    ),
+);
